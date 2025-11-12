@@ -1,5 +1,4 @@
 # Midterm Project: Heart Disease Classification Analysis
-
 **Author:** Kellie Leopold  
 **Date:** November 11, 2025  
 **Objective:** Predict the risk of heart disease using patient data.
@@ -8,7 +7,7 @@
 
 ## Introduction
 
-Heart disease is a leading cause of death worldwide. Early detection helps healthcare providers take preventive measures. This project uses the [UCI Heart Disease dataset](https://archive.ics.uci.edu/ml/datasets/heart+disease) to analyze patient data and build machine learning models to predict heart disease risk.
+Heart disease is a leading cause of death worldwide. Early detection helps healthcare providers take preventive measures. This project uses the UCI Heart Disease dataset to analyze patient data and build machine learning models to predict heart disease risk.
 
 **Project Goals:**
 
@@ -80,18 +79,12 @@ Heart disease is a leading cause of death worldwide. Early detection helps healt
 - Decision Trees generally performed better or as well as other models for single features  
 - Combining multiple features would likely improve performance  
 
-**Example Plots:**
+**Reflection:**
 
-- Histogram and count plots for features:  
-![Feature Distributions](images/histograms.png)  
-- Confusion matrices for each model and feature:  
-![Confusion Matrix Case 1](images/cm_case1.png)  
-![Confusion Matrix Case 2](images/cm_case2.png)  
-![Confusion Matrix Case 3](images/cm_case3.png)  
-- Decision Tree visualizations:  
-![Decision Tree Case 1](images/dt_case1.png)  
-![Decision Tree Case 2](images/dt_case2.png)  
-![Decision Tree Case 3](images/dt_case3.png)  
+- Age alone is a general indicator, so predictions were weaker  
+- Blood pressure improved predictive power slightly  
+- Cholesterol gave the clearest results, aligning with medical knowledge  
+- Using multiple features together would likely give the best predictions  
 
 ---
 
